@@ -106,7 +106,7 @@ logger.info("ETL process completed")
 
 # COMMAND ----------
 
-A = 2+3
+logger.info("ETL process completed")
 
 # COMMAND ----------
 
