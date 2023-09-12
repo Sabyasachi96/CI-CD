@@ -119,3 +119,7 @@ logger.info("ETL process completed")
 # COMMAND ----------
 
 logger.info("ETL process completed")
+
+# COMMAND ----------
+
+logger.info("ETL process completed")
