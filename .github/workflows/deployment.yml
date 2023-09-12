@@ -5,9 +5,21 @@ on:
  
 
 jobs:
-  DEV:
+ feature_sabya:
+    runs-on: ubuntu-latest
+    environment: feature_sabya
+    steps:
+      - uses: actions/checkout@v2
+
+ 
+
+      - name: Run a script
+        run: |
+          echo "I amrunning a job in the DEV environment"
+ DEV:
     runs-on: ubuntu-latest
     environment: DEV
+    needs: feature_sabya
     steps:
       - uses: actions/checkout@v2
 
